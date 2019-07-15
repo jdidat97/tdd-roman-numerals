@@ -17,7 +17,7 @@ typedef struct
    const char *romanNumeral;
 } TableEntry_t;
 
-const TableEntry_t romanNumeralTable[] = {
+static const TableEntry_t romanNumeralTable[] = {
    { 1000, "M" },
    { 900, "CM" },
    { 500, "D" },
