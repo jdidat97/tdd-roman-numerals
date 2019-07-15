@@ -13,7 +13,7 @@ static char *Append(char *output, const char *toAppend)
 
 typedef struct
 {
-   int num;
+   u_int16_t num;
    const char *romanNumeral;
 } TableEntry_t;
 
