@@ -12,7 +12,6 @@
  * @param input The number to convert.
  * @param output String buffer in which to store the converted Roman numeral.
  */
-
 void RomanNumeral_Convert(unsigned input, char *output);
 
 #endif
