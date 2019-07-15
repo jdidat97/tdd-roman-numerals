@@ -125,4 +125,15 @@ TEST(RomanNumeral, SuperTest)
    ShouldConvert(99, "XCIX");
    ShouldConvert(100, "C");
    ShouldConvert(153, "CLIII");
+
+   ShouldConvert(200, "CC");
+   ShouldConvert(257, "CCLVII");
+   ShouldConvert(300, "CCC");
+   ShouldConvert(394, "CCCXCIV");
+   ShouldConvert(478, "CDLXXVIII");
+   ShouldConvert(500, "D");
+   ShouldConvert(952, "CMLII");
+   ShouldConvert(1000, "M");
+   ShouldConvert(3999, "MMMCMXCIX");
+   
 }
