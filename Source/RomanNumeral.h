@@ -13,7 +13,6 @@
  * @param output String buffer in which to store the converted Roman numeral.
  */
 
-void Append(char *output, const char *toAppend);
 void RomanNumeral_Convert(unsigned input, char *output);
 
 #endif

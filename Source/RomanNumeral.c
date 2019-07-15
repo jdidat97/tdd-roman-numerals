@@ -6,7 +6,7 @@
 #include <stdio.h>
 #include "RomanNumeral.h"
 
-void Append(char *output, const char *toAppend)
+static void Append(char *output, const char *toAppend)
 {
    sprintf(output + strlen(output), "%s", toAppend);
 }
