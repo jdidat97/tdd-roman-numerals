@@ -7,8 +7,9 @@
 #include "RomanNumeral.h"
 
 static char *Append(char *output, const char *toAppend)
+
 {
-   return output + sprintf(output, "%s", toAppend);
+   sprintf(output + strlen(output), "%s", toAppend);
 }
 
 typedef struct
@@ -43,4 +44,5 @@ void RomanNumeral_Convert(unsigned input, char *output)
          input -= romanNumeralTable[i].num;
       }
    }
+
 }
